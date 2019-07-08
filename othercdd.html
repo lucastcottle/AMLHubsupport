@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8" />
+    <title>Bootstrap FAQ Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1><a href="https://faq.amlhub.io"><img src="img/logo.svg" alt="logo" width="20%" height="20%"></a>&nbsp;&nbsp;&nbsp;&nbsp;CDD FAQ - Other <small>AMLHub Frequently Asked Questions</small></h1>
+        </div>
+
+        <!-- Bootstrap FAQ - START -->
+        <div class="container">
+            <br />
+            <br />
+            <br />
+
+            
+
+            <br />
+
+            <div class="panel-group" id="accordion">
+                <div class="faqHeader"> Refunding a Client </div>
+                <div class="panel panel-default">
+                        <a name=OCCD1></a>
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseOne">I have to refund a deposit to a buyer, does this trigger any CDD
+                                requirements? </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Yes. In circumstances where a refund of a deposit is made to a buyer, you will be
+                                required to perform CDD on the
+                                buyer prior to providing the refund.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="faqHeader">Offshore Related Issues</div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                            <a name=OCCD2></a>
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseTwo">Which countries are high risk?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>There is no definitive list of countries that do not have sufficient AML/CFT systems and
+                                measures in place, or are
+                                otherwise high risk.<br>
+                                <br>
+                                However, some useful resources you may wish to refer to help assess the risk of
+                                judications are:
+                                <ol>
+                                    <li>Know Your Country rating table:
+                                        <a>https://www.knowyourcountry.com/country-ratings-table</a></li>
+                                    <li>Basel AML Index: <a> https://index.baselgovernance.org/</a></li>
+                                    Please note further detail regarding jurisdictional risk is included in your AML/CFT
+                                    Risk Assessment.
+
+                                </ol>
+
+                            </p>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .faqHeader {
+            font-size: 27px;
+            margin: 20px;
+        }
+
+        .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e072";
+            /* "play" icon */
+            float: right;
+            color: #0052CC;
+            font-size: 18px;
+            line-height: 22px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+        }
+    </style>
+
+    <!-- Bootstrap FAQ - END -->
+
+    </div>
+
+</body>
+
+</html>
